@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/*Navbar*/
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+	margin-top: 0.5%;
+	
+	
+}
+
+.navbar .navbar-nav > li > a{
+	color: red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+}
+
+
+
+
+.navbar .navbar-brand{
+	
+		color: red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+	
+}
+
+.navbar .active{
+	color: red;
+}
+
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-wrapper{
+	color: red;
+	
+}
+
+
+
+
+
+
+
+.header {
+        color: red;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+        font-size: 27px;
+        padding: 10px;
+	text-shadow: 1px 1px black;
+	text-decoration: underline;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: red;
+		background-color: red;
+		 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		
+}
+
+.btn{
+	background-color: red;
+		 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+}
+
+
+
+	
+
+		
+button{
+	background-color: red;
+}		
+
+
+
+.well{
+	background:linear-gradient(#adafb2,#eff0f2,#adafb2);
+}
+
+.back{
+	 background: repeating-linear-gradient(#ea302a,#a31c18);
+}
+
+.box{
+	margin-top: 6%;
+}
+
+.jumbotron{
+	background: repeating-linear-gradient(grey, white, grey);
+	margin-top: 2%;
+	border: medium solid black;
+	padding-left: 10%;
+	text-align: center;
+}
+
+.head{
+	color:red;
+	text-shadow: 2px 2px black;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+footer{
+	color: red;
+}

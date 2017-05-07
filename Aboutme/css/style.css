@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:linear-gradient(-90deg,#a31c18,#ea302a,#a31c18);
+}
+
+/*Navbar*/
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+	margin-top: 1%;
+	
+	
+}
+
+.navbar .navbar-nav > li > a{
+	color: red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+}
+
+
+
+
+.navbar .navbar-brand{
+	
+		color: red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+	
+}
+
+.navbar .active{
+	color: red;
+}
+
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-wrapper{
+	color: red;
+	
+}
+
+
+.row h1{
+	color: white;
+	text-shadow: 3px 3px black;
+	margin-top: 7%;
+}
+
+.row img{
+	border: medium solid black;
+}
+
+.row h3{
+	font-size: 200%;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.row small{
+	color: limegreen;
+}
+
+.textbox{
+	background-color: white;
+	display: block;
+	font-size: 140%;
+	border: solid medium #000000;
+	padding: 5px;
+	border-radius: 15%;
+	margin-right: 20%;
+}
+
+.textbox h2{
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: red;
+	text-shadow: 2px 2px black;
+}
+
+.textbox p{
+	font-size: 70%;
+}
+
+.row h2{
+	color: red;
+	text-shadow: 2px 2px black;
+}
+
+.row h4{
+	color: red;
+	text-shadow: 1px 1px black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.row h3{
+	margin-left: -18%;
+}
+
+footer{
+	color: white;
+}

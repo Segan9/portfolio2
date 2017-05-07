@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Navbar*/
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+	margin-top: 1%;
+	
+	
+}
+
+.navbar .navbar-nav > li > a{
+	color: red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+}
+
+
+
+
+.navbar .navbar-brand{
+	
+		color: red;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+	
+}
+
+.navbar .active{
+	color: red;
+}
+
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-wrapper{
+	color: red;
+	
+}
+
+
+
+.head2 h2{
+	color: red;
+	margin-left: 5%;
+}
+.row img{
+	height: 70%;
+	width: 80%;
+	border:thick solid #ea302a;
+}
+
+.row h2{
+	color: red;
+	text-shadow: 1px 1px black;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.text{
+	color: white;
+	text-align: center;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+hr{
+	color: red;
+}
+.row{
+	margin: auto;
+}
+
+.head{
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+
+.page-header{
+	color: #ea302a;
+	text-shadow: 1px 1px black;
+}
+.container1{
+	width: 80%;
+	margin: auto;
+}
+
+.jumbotron{
+	background: radial-gradient(#a31c18,#ea302a,#a31c18);
+	margin-top: 8%;
+	border:thick solid black;
+}
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+footer{
+	color: red;
+}
